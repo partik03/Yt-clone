@@ -1,0 +1,9 @@
+.sidebar{
+    width: 7%;
+    border-right: 1px solid black;
+    /* height:100vh; */
+    padding-top: 1.5rem;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}

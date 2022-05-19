@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.CompleteSideBarChildren{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin: 1.9rem 0.5rem; */
+    padding: 0.7rem 0rem;
+    font-size: 0.6rem;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0rem 0.6rem;
+}
+.sidebar_icon{
+    font-size: 1.2rem;
+    flex: 0.3;
+}
+h2{
+    flex: 0.7;
+    cursor: pointer;
+}
+.CompleteSideBarChildren:hover{
+    background-color: lightgrey;
+    color: red;
+}
+.CompleteSideBarChildren:hover h2{
+    color: black;
+}
+.CompleteSideBarChildren.selected{
+    color: red;
+}
+
+

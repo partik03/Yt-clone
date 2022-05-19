@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.SidebarRow{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.7rem 1rem;
+    cursor: pointer;
+    border-radius: 0.7rem;
+    margin: 0rem 0.5rem;
+}
+.SidebarRow h2{
+    font-size: 0.6rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.5rem 0rem;
+}
+.SidebarRow:hover{
+background-color: #dddbdb9c;
+color: red;
+}
+.SidebarRow:hover h2{
+    color: black;
+    font-weight: bolder;
+}
+.sidebar_icon{
+    font: 1.5rem;
+}
+.SidebarRow.selected{
+    background-color: #dddbdb9c;
+      color: red;
+}
+.SidebarRow.selected h2{
+    color: black;
+}
